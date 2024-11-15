@@ -13,6 +13,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -71,6 +76,9 @@ a {
   .header-menu a:hover {
     background-color: #2e2e2e;
   }
+  .header a:after {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -81,4 +89,9 @@ a {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+.introducao-bg {
+  background: #000;
+  color: #fff;
 }
